@@ -3,16 +3,15 @@
 import UIKit // UIkit for iOs,
 
 var str = "Hello, playground"
-var ad = "Berk"
-
-
-ad = "Hakan"
-ad = "Hakan\"in verisi"
-type(of: ad)
-
-
 var name = "Berk"
-name += " ŞAKAR"
+
+
+name = "Hakan"
+name = "Hakan\"in verisi"
+type(of: name)
+
+//var name = "Berk"
+//name += " ŞAKAR"
 
 let firstname: String = "Berk"
 
@@ -74,4 +73,9 @@ print(number1 > number2)
 print(number1 < number2)
 print(number1 >= number2)
 print(number1 <= number2)
+
+
+var lorem:Bool!
+
+print(lorem)
 
